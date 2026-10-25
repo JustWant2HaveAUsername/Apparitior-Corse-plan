@@ -1,4 +1,4 @@
-# 课间穿梭 · 智能课表分配器
+# Apparitior Corse Plan
 
 HackSHSID 2026 Track 1 的 Python/Tkinter 原型。从单个学生的角度，在完整满足每门课程周课时的前提下，优化走班路程、课前准备和喜好搭配。
 

@@ -1,0 +1,265 @@
+{
+  "version": 2,
+  "locations": [
+    "中兴楼一楼",
+    "中兴楼地下一层",
+    "中兴楼二楼",
+    "中兴楼三楼",
+    "中兴楼四楼",
+    "礼堂",
+    "操场",
+    "逸夫楼三楼",
+    "逸夫楼二楼"
+  ],
+  "travel": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      7
+    ],
+    [
+      1,
+      0,
+      2,
+      3,
+      4,
+      7,
+      8,
+      6,
+      7
+    ],
+    [
+      2,
+      2,
+      0,
+      2,
+      4,
+      6,
+      7,
+      5,
+      6
+    ],
+    [
+      3,
+      3,
+      2,
+      0,
+      2,
+      7,
+      8,
+      6,
+      5
+    ],
+    [
+      4,
+      4,
+      4,
+      2,
+      0,
+      8,
+      9,
+      7,
+      6
+    ],
+    [
+      6,
+      7,
+      6,
+      7,
+      8,
+      0,
+      3,
+      9,
+      10
+    ],
+    [
+      7,
+      8,
+      7,
+      8,
+      9,
+      3,
+      0,
+      10,
+      11
+    ],
+    [
+      8,
+      6,
+      5,
+      6,
+      7,
+      9,
+      10,
+      0,
+      2
+    ],
+    [
+      7,
+      7,
+      6,
+      5,
+      6,
+      10,
+      11,
+      2,
+      0
+    ]
+  ],
+  "courses": [
+    {
+      "name": "物理",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 160,
+      "prep": 5,
+      "like": 4,
+      "location2": "逸夫楼二楼",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "化学",
+      "location": "中兴楼三楼",
+      "lesson_minutes": 165,
+      "prep": 5,
+      "like": 4,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": true,
+      "linked": false
+    },
+    {
+      "name": "德语",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 40,
+      "prep": 0,
+      "like": 2,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": true,
+      "linked": false
+    },
+    {
+      "name": "历史",
+      "location": "中兴楼三楼",
+      "lesson_minutes": 170,
+      "prep": 0,
+      "like": 1,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": true,
+      "linked": false
+    },
+    {
+      "name": "体育",
+      "location": "操场",
+      "lesson_minutes": 110,
+      "prep": 0,
+      "like": 3,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "英语",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 220,
+      "prep": 5,
+      "like": 4,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": true,
+      "linked": false
+    },
+    {
+      "name": "数学",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 205,
+      "prep": 0,
+      "like": 4,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "pbl",
+      "location": "中兴楼三楼",
+      "lesson_minutes": 80,
+      "prep": 0,
+      "like": 4,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": true
+    },
+    {
+      "name": "APCSP",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 160,
+      "prep": 0,
+      "like": 4,
+      "location2": "逸夫楼三楼",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "电影",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 45,
+      "prep": 0,
+      "like": 5,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "语文",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 85,
+      "prep": 0,
+      "like": 3,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": false
+    },
+    {
+      "name": "cas（语文）",
+      "location": "中兴楼二楼",
+      "lesson_minutes": 80,
+      "prep": 0,
+      "like": 3,
+      "location2": "",
+      "per_day_max": 2,
+      "locker": false,
+      "linked": true
+    }
+  ],
+  "config": {
+    "periods_per_day": 7,
+    "period_minutes": 45,
+    "break_minutes": 10,
+    "lunch_after": 4,
+    "lunch_minutes": 65,
+    "start_time": "08:30",
+    "pref_weight": 2.5,
+    "morning_meeting": true,
+    "morning_meeting_location": "中兴楼地下一层",
+    "morning_meeting_gap": 10,
+    "order_meal": true,
+    "order_meal_location": "中兴楼一楼",
+    "order_meal_after_period": 1,
+    "locker_location": "中兴楼二楼"
+  }
+}
